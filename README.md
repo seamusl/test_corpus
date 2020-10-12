@@ -1,8 +1,7 @@
 # OpenNAS_v1
 A system integrating open source tools for Neural Architecture Search (OpenNAS), in the classification of images, 
-has been developed as part of this research. OpenNAS takes any dataset of grayscale, or RBG im- ages, and generates 
-Convolutional Neural Network (CNN) architectures based on a range of metaheuristics using either an AutoKeras, 
-a transfer learning or a Swarm Intelligence (SI) approach.
+has been developed. OpenNAS takes any dataset of grayscale, or RBG im- ages, and generates Convolutional Neural Network 
+(CNN) architectures based on a range of metaheuristics using either an AutoKeras, a transfer learning or a Swarm Intelligence (SI) approach.
 
 Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO) are used as the SI algorithms. Furthermore, models 
 developed through such metaheuristics may be combined using stacking ensembles.
@@ -10,44 +9,30 @@ developed through such metaheuristics may be combined using stacking ensembles.
 ## Table of contents
 * [General info](#general-info) <!---* [Screenshots](#screenshots) -->
 * [Technologies](#technologies) <!---* * [Setup](#setup) -->
-* [Features](#features)
-* [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+<!---* ## General info
+Add more general information about project. What the purpose of the project is? Motivation? -->
 
 !## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+* Python 3.7
+* Tensorflow 1.14
+* Keras 2.2.4
+* Numpy 1.16.4
+* Matplotplib 3.1.0.
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+DeepSwarm library:
+Byla, E. and Pang, W., 2019, September. Deepswarm: Optimising convolutional neural networks using swarm intelligence. In UK Workshop on Computational Intelligence (pp. 119-130). Springer, Cham.
+pso-CNN
+Junior, F.E.F. and Yen, G.G., 2019. Particle swarm optimization of deep neural
+networks architectures for image classification. Swarm and Evolutionary Compu-
+tation, 49, pp.62-74.
+
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@seamuslankford] - feel free to contact me!
