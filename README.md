@@ -27,9 +27,11 @@ Add more general information about project. What the purpose of the project is? 
 
 ## Inspiration
 DeepSwarm library:
+
 Byla, E. and Pang, W., 2019, September. Deepswarm: Optimising convolutional neural networks using swarm intelligence. In UK Workshop on Computational Intelligence (pp. 119-130). Springer, Cham.
 
-pso-CNN
+pso-CNN:
+
 Junior, F.E.F. and Yen, G.G., 2019. Particle swarm optimization of deep neural
 networks architectures for image classification. Swarm and Evolutionary Compu-
 tation, 49, pp.62-74.
